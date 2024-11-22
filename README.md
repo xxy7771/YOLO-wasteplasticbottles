@@ -9,7 +9,7 @@ pip install -r requirements.txt
 ### Train
 
 * Configure your dataset path in `train.py` for training
-* Run `yolo train model=$.pt data=$.yaml epochs=200 imgsz=640 batch=16` for training
+* Run `yolo train model=$.yaml data=$.yaml epochs=200 imgsz=640 batch=16` for training
 
 ### Val
 
