@@ -3,7 +3,7 @@ warnings.filterwarnings('ignore')
 from ultralytics import YOLO
 
 if __name__ == '__main__':
-    model = YOLO('$.yaml')
+    model = YOLO('yolov8-main/ultralytics/cfg/models/v8/yolov8-wasteplasticbottles.yam')
     # model.load('yolov8n.pt') # loading pretrain weights
     model.train(data='$.yaml',
                 cache=False,
